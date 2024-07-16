@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA4F7152C2D45F500B4C4D1 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4F7142C2D45F500B4C4D1 /* MainMenuViewController.swift */; };
+		FDA4F7172C2D46EC00B4C4D1 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4F7162C2D46EC00B4C4D1 /* TutorialViewController.swift */; };
+		FDB293752C35513A009D8556 /* Bgmusic.mpeg in Resources */ = {isa = PBXBuildFile; fileRef = FDB293742C35513A009D8556 /* Bgmusic.mpeg */; };
+		FDCF250F2C2D3FD900538517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCF250E2C2D3FD900538517 /* AppDelegate.swift */; };
+		FDCF25112C2D3FD900538517 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FDCF25102C2D3FD900538517 /* GameScene.sks */; };
+		FDCF25132C2D3FD900538517 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FDCF25122C2D3FD900538517 /* Actions.sks */; };
+		FDCF25152C2D3FD900538517 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCF25142C2D3FD900538517 /* GameScene.swift */; };
+		FDCF25172C2D3FD900538517 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCF25162C2D3FD900538517 /* GameViewController.swift */; };
+		FDCF251A2C2D3FD900538517 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FDCF25192C2D3FD900538517 /* Base */; };
+		FDCF251C2C2D3FD900538517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDCF251B2C2D3FD900538517 /* Assets.xcassets */; };
+		FDCF251F2C2D3FD900538517 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FDCF251E2C2D3FD900538517 /* Base */; };
+		FDCF25292C2D3FD900538517 /* Chicken_JumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCF25282C2D3FD900538517 /* Chicken_JumpTests.swift */; };
+		FDCF25332C2D3FD900538517 /* Chicken_JumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCF25322C2D3FD900538517 /* Chicken_JumpUITests.swift */; };
+		FDCF25352C2D3FD900538517 /* Chicken_JumpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCF25342C2D3FD900538517 /* Chicken_JumpUITestsLaunchTests.swift */; };
+		FDDFC5F22C41111700E594EC /* jagung.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDDFC5F12C41111700E594EC /* jagung.mp3 */; };
+		FDDFC5F42C41111E00E594EC /* jump.mpeg in Resources */ = {isa = PBXBuildFile; fileRef = FDDFC5F32C41111E00E594EC /* jump.mpeg */; };
+		FDDFC5F82C44060C00E594EC /* Lemonada-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDDFC5F72C44060C00E594EC /* Lemonada-VariableFont_wght.ttf */; };
+		FDDFC5FB2C441F6300E594EC /* Fredoka_Condensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDDFC5FA2C441F6300E594EC /* Fredoka_Condensed-SemiBold.ttf */; };
+		FF6933322C33FD85006D9914 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FF6933312C33FD85006D9914 /* GameOverScene.sks */; };
+		FF6933342C33FDB4006D9914 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6933332C33FDB4006D9914 /* GameOverScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDCF25252C2D3FD900538517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDCF25032C2D3FD800538517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDCF250A2C2D3FD900538517;
+			remoteInfo = "Chicken Jump";
+		};
+		FDCF252F2C2D3FD900538517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDCF25032C2D3FD800538517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDCF250A2C2D3FD900538517;
+			remoteInfo = "Chicken Jump";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDA4F7142C2D45F500B4C4D1 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		FDA4F7162C2D46EC00B4C4D1 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		FDB293742C35513A009D8556 /* Bgmusic.mpeg */ = {isa = PBXFileReference; lastKnownFileType = video.mpeg; path = Bgmusic.mpeg; sourceTree = "<group>"; };
+		FDCF250B2C2D3FD900538517 /* Chicken Jump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chicken Jump.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCF250E2C2D3FD900538517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDCF25102C2D3FD900538517 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FDCF25122C2D3FD900538517 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		FDCF25142C2D3FD900538517 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FDCF25162C2D3FD900538517 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FDCF25192C2D3FD900538517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDCF251B2C2D3FD900538517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDCF251E2C2D3FD900538517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDCF25242C2D3FD900538517 /* Chicken JumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chicken JumpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCF25282C2D3FD900538517 /* Chicken_JumpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chicken_JumpTests.swift; sourceTree = "<group>"; };
+		FDCF252E2C2D3FD900538517 /* Chicken JumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chicken JumpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCF25322C2D3FD900538517 /* Chicken_JumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chicken_JumpUITests.swift; sourceTree = "<group>"; };
+		FDCF25342C2D3FD900538517 /* Chicken_JumpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chicken_JumpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDDFC5F12C41111700E594EC /* jagung.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jagung.mp3; sourceTree = "<group>"; };
+		FDDFC5F32C41111E00E594EC /* jump.mpeg */ = {isa = PBXFileReference; lastKnownFileType = video.mpeg; path = jump.mpeg; sourceTree = "<group>"; };
+		FDDFC5F72C44060C00E594EC /* Lemonada-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lemonada-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		FDDFC5F92C44077C00E594EC /* Chicken-Jump-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Chicken-Jump-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FDDFC5FA2C441F6300E594EC /* Fredoka_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_Condensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		FF6933312C33FD85006D9914 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		FF6933332C33FDB4006D9914 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDCF25082C2D3FD900538517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCF25212C2D3FD900538517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCF252B2C2D3FD900538517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDCF25022C2D3FD800538517 = {
+			isa = PBXGroup;
+			children = (
+				FDCF250D2C2D3FD900538517 /* Chicken Jump */,
+				FDCF25272C2D3FD900538517 /* Chicken JumpTests */,
+				FDCF25312C2D3FD900538517 /* Chicken JumpUITests */,
+				FDCF250C2C2D3FD900538517 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDCF250C2C2D3FD900538517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDCF250B2C2D3FD900538517 /* Chicken Jump.app */,
+				FDCF25242C2D3FD900538517 /* Chicken JumpTests.xctest */,
+				FDCF252E2C2D3FD900538517 /* Chicken JumpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDCF250D2C2D3FD900538517 /* Chicken Jump */ = {
+			isa = PBXGroup;
+			children = (
+				FDDFC5F92C44077C00E594EC /* Chicken-Jump-Info.plist */,
+				FDCF250E2C2D3FD900538517 /* AppDelegate.swift */,
+				FDCF25102C2D3FD900538517 /* GameScene.sks */,
+				FDCF25122C2D3FD900538517 /* Actions.sks */,
+				FDCF25142C2D3FD900538517 /* GameScene.swift */,
+				FDDFC5FA2C441F6300E594EC /* Fredoka_Condensed-SemiBold.ttf */,
+				FDCF25162C2D3FD900538517 /* GameViewController.swift */,
+				FDDFC5F72C44060C00E594EC /* Lemonada-VariableFont_wght.ttf */,
+				FDCF25182C2D3FD900538517 /* Main.storyboard */,
+				FDCF251B2C2D3FD900538517 /* Assets.xcassets */,
+				FDCF251D2C2D3FD900538517 /* LaunchScreen.storyboard */,
+				FDA4F7142C2D45F500B4C4D1 /* MainMenuViewController.swift */,
+				FDA4F7162C2D46EC00B4C4D1 /* TutorialViewController.swift */,
+				FF6933312C33FD85006D9914 /* GameOverScene.sks */,
+				FF6933332C33FDB4006D9914 /* GameOverScene.swift */,
+				FDB293742C35513A009D8556 /* Bgmusic.mpeg */,
+				FDDFC5F12C41111700E594EC /* jagung.mp3 */,
+				FDDFC5F32C41111E00E594EC /* jump.mpeg */,
+			);
+			path = "Chicken Jump";
+			sourceTree = "<group>";
+		};
+		FDCF25272C2D3FD900538517 /* Chicken JumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDCF25282C2D3FD900538517 /* Chicken_JumpTests.swift */,
+			);
+			path = "Chicken JumpTests";
+			sourceTree = "<group>";
+		};
+		FDCF25312C2D3FD900538517 /* Chicken JumpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDCF25322C2D3FD900538517 /* Chicken_JumpUITests.swift */,
+				FDCF25342C2D3FD900538517 /* Chicken_JumpUITestsLaunchTests.swift */,
+			);
+			path = "Chicken JumpUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDCF250A2C2D3FD900538517 /* Chicken Jump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCF25382C2D3FD900538517 /* Build configuration list for PBXNativeTarget "Chicken Jump" */;
+			buildPhases = (
+				FDCF25072C2D3FD900538517 /* Sources */,
+				FDCF25082C2D3FD900538517 /* Frameworks */,
+				FDCF25092C2D3FD900538517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chicken Jump";
+			productName = "Chicken Jump";
+			productReference = FDCF250B2C2D3FD900538517 /* Chicken Jump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDCF25232C2D3FD900538517 /* Chicken JumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCF253B2C2D3FD900538517 /* Build configuration list for PBXNativeTarget "Chicken JumpTests" */;
+			buildPhases = (
+				FDCF25202C2D3FD900538517 /* Sources */,
+				FDCF25212C2D3FD900538517 /* Frameworks */,
+				FDCF25222C2D3FD900538517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDCF25262C2D3FD900538517 /* PBXTargetDependency */,
+			);
+			name = "Chicken JumpTests";
+			productName = "Chicken JumpTests";
+			productReference = FDCF25242C2D3FD900538517 /* Chicken JumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDCF252D2C2D3FD900538517 /* Chicken JumpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCF253E2C2D3FD900538517 /* Build configuration list for PBXNativeTarget "Chicken JumpUITests" */;
+			buildPhases = (
+				FDCF252A2C2D3FD900538517 /* Sources */,
+				FDCF252B2C2D3FD900538517 /* Frameworks */,
+				FDCF252C2C2D3FD900538517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDCF25302C2D3FD900538517 /* PBXTargetDependency */,
+			);
+			name = "Chicken JumpUITests";
+			productName = "Chicken JumpUITests";
+			productReference = FDCF252E2C2D3FD900538517 /* Chicken JumpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDCF25032C2D3FD800538517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FDCF250A2C2D3FD900538517 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FDCF25232C2D3FD900538517 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FDCF250A2C2D3FD900538517;
+					};
+					FDCF252D2C2D3FD900538517 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FDCF250A2C2D3FD900538517;
+					};
+				};
+			};
+			buildConfigurationList = FDCF25062C2D3FD800538517 /* Build configuration list for PBXProject "Chicken Jump" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDCF25022C2D3FD800538517;
+			productRefGroup = FDCF250C2C2D3FD900538517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDCF250A2C2D3FD900538517 /* Chicken Jump */,
+				FDCF25232C2D3FD900538517 /* Chicken JumpTests */,
+				FDCF252D2C2D3FD900538517 /* Chicken JumpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDCF25092C2D3FD900538517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCF25112C2D3FD900538517 /* GameScene.sks in Resources */,
+				FDCF251A2C2D3FD900538517 /* Base in Resources */,
+				FDCF251C2C2D3FD900538517 /* Assets.xcassets in Resources */,
+				FDCF25132C2D3FD900538517 /* Actions.sks in Resources */,
+				FDDFC5F82C44060C00E594EC /* Lemonada-VariableFont_wght.ttf in Resources */,
+				FDDFC5F22C41111700E594EC /* jagung.mp3 in Resources */,
+				FF6933322C33FD85006D9914 /* GameOverScene.sks in Resources */,
+				FDDFC5F42C41111E00E594EC /* jump.mpeg in Resources */,
+				FDCF251F2C2D3FD900538517 /* Base in Resources */,
+				FDDFC5FB2C441F6300E594EC /* Fredoka_Condensed-SemiBold.ttf in Resources */,
+				FDB293752C35513A009D8556 /* Bgmusic.mpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCF25222C2D3FD900538517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCF252C2C2D3FD900538517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDCF25072C2D3FD900538517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA4F7152C2D45F500B4C4D1 /* MainMenuViewController.swift in Sources */,
+				FDCF25152C2D3FD900538517 /* GameScene.swift in Sources */,
+				FDA4F7172C2D46EC00B4C4D1 /* TutorialViewController.swift in Sources */,
+				FDCF25172C2D3FD900538517 /* GameViewController.swift in Sources */,
+				FF6933342C33FDB4006D9914 /* GameOverScene.swift in Sources */,
+				FDCF250F2C2D3FD900538517 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCF25202C2D3FD900538517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCF25292C2D3FD900538517 /* Chicken_JumpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCF252A2C2D3FD900538517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCF25352C2D3FD900538517 /* Chicken_JumpUITestsLaunchTests.swift in Sources */,
+				FDCF25332C2D3FD900538517 /* Chicken_JumpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDCF25262C2D3FD900538517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDCF250A2C2D3FD900538517 /* Chicken Jump */;
+			targetProxy = FDCF25252C2D3FD900538517 /* PBXContainerItemProxy */;
+		};
+		FDCF25302C2D3FD900538517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDCF250A2C2D3FD900538517 /* Chicken Jump */;
+			targetProxy = FDCF252F2C2D3FD900538517 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDCF25182C2D3FD900538517 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCF25192C2D3FD900538517 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDCF251D2C2D3FD900538517 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCF251E2C2D3FD900538517 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDCF25362C2D3FD900538517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDCF25372C2D3FD900538517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDCF25392C2D3FD900538517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HDTJ3S9D2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chicken-Jump-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gilberd.Chicken-Jump";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDCF253A2C2D3FD900538517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HDTJ3S9D2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chicken-Jump-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gilberd.Chicken-Jump";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDCF253C2C2D3FD900538517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HDTJ3S9D2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gilberd.Chicken-JumpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chicken Jump.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chicken Jump";
+			};
+			name = Debug;
+		};
+		FDCF253D2C2D3FD900538517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HDTJ3S9D2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gilberd.Chicken-JumpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chicken Jump.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chicken Jump";
+			};
+			name = Release;
+		};
+		FDCF253F2C2D3FD900538517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HDTJ3S9D2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gilberd.Chicken-JumpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chicken Jump";
+			};
+			name = Debug;
+		};
+		FDCF25402C2D3FD900538517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HDTJ3S9D2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gilberd.Chicken-JumpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chicken Jump";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDCF25062C2D3FD800538517 /* Build configuration list for PBXProject "Chicken Jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCF25362C2D3FD900538517 /* Debug */,
+				FDCF25372C2D3FD900538517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCF25382C2D3FD900538517 /* Build configuration list for PBXNativeTarget "Chicken Jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCF25392C2D3FD900538517 /* Debug */,
+				FDCF253A2C2D3FD900538517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCF253B2C2D3FD900538517 /* Build configuration list for PBXNativeTarget "Chicken JumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCF253C2C2D3FD900538517 /* Debug */,
+				FDCF253D2C2D3FD900538517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCF253E2C2D3FD900538517 /* Build configuration list for PBXNativeTarget "Chicken JumpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCF253F2C2D3FD900538517 /* Debug */,
+				FDCF25402C2D3FD900538517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDCF25032C2D3FD800538517 /* Project object */;
+}
